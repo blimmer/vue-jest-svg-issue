@@ -4,11 +4,15 @@
       <button id="regular-button" @click="regularButtonCounter += 1">
         Regular Button
       </button>
-      <span>Regular button clicked {{ regularButtonCounter }} times</span>
+      <span id="regular-button-counter"
+        >Regular button clicked {{ regularButtonCounter }} times</span
+      >
     </div>
     <div style="margin-top: 2em">
       <CloseIcon id="svg-button" @click="svgButtonCounter += 1" />
-      <span>SVG button clicked {{ svgButtonCounter }} times</span>
+      <span id="svg-button-counter"
+        >SVG button clicked {{ svgButtonCounter }} times</span
+      >
     </div>
   </div>
 </template>
