@@ -10,7 +10,7 @@ This repository demos an issue when trying to interact with a rendered SVG from 
 
 You'll see that you can click on and interact with both buttons, as demonstrated in this gif:
 
-![](https://imgur.com/3zMZ2ua)
+![](https://i.imgur.com/3zMZ2ua.gif)
 
 - Now, try running the test suite `npm run test`
 
